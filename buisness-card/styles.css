@@ -1,0 +1,97 @@
+
+* { box-sizing: border-box;}
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  font: 14px/1.1 Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  /*flex-direction: column;*/
+}
+
+.pull-left { float: right; }
+.pull-right { float: right; }
+
+.business-card {
+  width:  350px;
+  height: 200px;
+  margin: 0 20px 40px;
+  box-shadow: 0 0 20px #CCC;
+}
+/*.business-card:last-of-type { margin-bottom: 0; }*/
+
+
+.card-1 { border: 1px solid #FFF; }
+.card-1 > div {
+  width: 12px; height: 11px;
+  float: left;
+}
+.on { background: #267ab8; }
+.off { background: #f5f5f5; }
+.space { background: #56AAE8; }
+
+
+.card-2 {
+  background: #267ab8;
+  color: #fff;
+  font: 80px/190px Ubuntu;
+  text-shadow: 2px 2px 0 #166aa8;
+  text-align: center;
+}
+
+
+.card-3 {
+  position: relative;
+  background: #267ab8;
+  color: #fff;
+  /*display: none;*/
+}
+.card-3 h1 {
+  font: 80px/1 Ubuntu;
+  text-shadow: 2px 2px 0 #166aa8;
+  text-align: center;
+}
+.meta {
+  text-align: center;
+  text-shadow: 1px 1px 0 #166aa8;
+  position: absolute; bottom: 10px; left: 13px; right: 15px;
+}
+
+
+.card-4 {
+  position: relative;
+  background: #267ab8;
+  color: #fff;
+  font-family: Ubuntu;
+  text-shadow: 2px 2px 0 #166aa8;
+}
+.card-4 h1 {
+  font: 80px/1 Ubuntu;
+  text-align: center;
+}
+.card-4 .sub {
+  font-size: 40px;
+  position: absolute;
+  bottom: 40px;
+  right: 26px;
+  /*display: none;*/
+}
+.card-4 .email {
+  position: absolute; bottom: 15px; right: 26px;
+  font-size: 14px;
+  color: #065a98;
+  /*text-shadow: 1px 1px 0 #56aae8;*/
+  text-shadow: none;
+}
+.card-4 .desc {
+  position: absolute; bottom: 15px; left: 26px;
+  font-size: 14px;
+  color: #065a98;
+  /*text-shadow: 1px 1px 0 #56aae8;*/
+  text-shadow: none;
+}
