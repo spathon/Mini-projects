@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body {
+  background: #272c35;
+  padding: 0;
+  margin: 0;
+  /* border: 4px solid #171b20; */
+}
